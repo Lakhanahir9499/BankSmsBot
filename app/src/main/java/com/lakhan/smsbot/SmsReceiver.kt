@@ -53,8 +53,8 @@ class SmsReceiver : BroadcastReceiver() {
 
     private fun sendToTelegram(amount: String, utr: String, time: String) {
 
-        val botToken = "YOUR_BOT_TOKEN"
-        val chatId = "YOUR_CHAT_ID"
+        val botToken = "7847409608:AAGD3HbHbgbcky_14ib_j47115RQc7k5Yso"
+        val chatId = "1386134836"
 
         val text = "Payment Received\nAmount: ₹$amount\nUTR: $utr\nAccount: 5098\nTime: $time"
 
